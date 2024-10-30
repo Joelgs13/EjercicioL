@@ -44,7 +44,7 @@ public class HelloApplication extends Application {
      * @return El escenario principal de la aplicación.
      */
     public static Stage getStage() {
-        return stage;  // Retorna el escenario principal
+        return stage;
     }
 
     /**

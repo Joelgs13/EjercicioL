@@ -1,7 +1,7 @@
-package DAO;
+package com.example.ejerciciol.DAO;
 
-import BBDD.ConexionBBDD;
-import Model.UsuarioModel;
+import com.example.ejerciciol.BBDD.ConexionBBDD;
+import com.example.ejerciciol.Model.UsuarioModel;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

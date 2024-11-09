@@ -1,4 +1,4 @@
-package DAO;
+package com.example.ejerciciol.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,12 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import BBDD.ConexionBBDD;
-import Model.AeropuertoModel;
-import Model.AvionModel;
+import com.example.ejerciciol.BBDD.ConexionBBDD;
+import com.example.ejerciciol.Model.AvionModel;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.control.TableView;
 
 /**
  * Clase de acceso a datos para la entidad Avión.

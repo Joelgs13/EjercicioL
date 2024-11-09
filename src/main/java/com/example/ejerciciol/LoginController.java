@@ -1,7 +1,7 @@
 package com.example.ejerciciol;
 
-import DAO.DaoUsuarios;
-import Model.UsuarioModel;
+import com.example.ejerciciol.DAO.DaoUsuarios;
+import com.example.ejerciciol.Model.UsuarioModel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

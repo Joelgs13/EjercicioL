@@ -1,17 +1,17 @@
 package com.example.ejerciciol;
 
 
-import DAO.DaoAeropuerto;
-import DAO.DaoAeropuertoPrivado;
-import DAO.DaoAeropuertoPublico;
-import DAO.DaoDireccion;
+import com.example.ejerciciol.DAO.DaoAeropuerto;
+import com.example.ejerciciol.DAO.DaoAeropuertoPrivado;
+import com.example.ejerciciol.DAO.DaoAeropuertoPublico;
+import com.example.ejerciciol.DAO.DaoDireccion;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import Model.AeropuertoPrivadoModel;
-import Model.AeropuertoPublicoModel;
-import Model.DireccionModel;
+import com.example.ejerciciol.Model.AeropuertoPrivadoModel;
+import com.example.ejerciciol.Model.AeropuertoPublicoModel;
+import com.example.ejerciciol.Model.DireccionModel;
 import javafx.stage.Stage;
 
 

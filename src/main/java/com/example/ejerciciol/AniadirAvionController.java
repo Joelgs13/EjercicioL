@@ -1,12 +1,12 @@
 package com.example.ejerciciol;
 
-import DAO.DaoAeropuerto;
-import Model.AeropuertoModel;
-import Model.AvionModel;
+import com.example.ejerciciol.DAO.DaoAeropuerto;
+import com.example.ejerciciol.Model.AeropuertoModel;
+import com.example.ejerciciol.Model.AvionModel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import DAO.DaoAvion;
+import com.example.ejerciciol.DAO.DaoAvion;
 
 /**
  * Controlador para añadir un nuevo avión en la aplicación.

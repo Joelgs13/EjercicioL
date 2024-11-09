@@ -1,4 +1,4 @@
-package Model;
+package com.example.ejerciciol.Model;
 
 /**
  * Clase que representa un modelo de usuario en el sistema.

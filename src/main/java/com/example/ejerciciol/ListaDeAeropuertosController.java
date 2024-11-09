@@ -1,10 +1,10 @@
 package com.example.ejerciciol;
 
-import BBDD.ConexionBBDD;
-import DAO.*;
-import Model.AeropuertoPrivadoModel;
-import Model.AeropuertoPublicoModel;
-import Model.AvionModel;
+import com.example.ejerciciol.BBDD.ConexionBBDD;
+import com.example.ejerciciol.DAO.*;
+import com.example.ejerciciol.Model.AeropuertoPrivadoModel;
+import com.example.ejerciciol.Model.AeropuertoPublicoModel;
+import com.example.ejerciciol.Model.AvionModel;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.ObservableList;
@@ -212,7 +212,7 @@ public class ListaDeAeropuertosController {
         s=new Stage();
         Scene scene;
         try {
-            FXMLLoader controlador = new FXMLLoader(HelloApplication.class.getResource("activarDesactivarAvion.fxml"));
+            FXMLLoader controlador = new FXMLLoader(EjercicioLApp.class.getResource("activarDesactivarAvion.fxml"));
             scene = new Scene(controlador.load());
             if (ListaDeAeropuertosController.isBorrar()){
                 s.setTitle("ELIMINAR AVION");
@@ -224,7 +224,7 @@ public class ListaDeAeropuertosController {
             e.printStackTrace();
         }
         s.setResizable(false);
-        s.initOwner(HelloApplication.getStage());
+        s.initOwner(EjercicioLApp.getStage());
         s.initModality(javafx.stage.Modality.WINDOW_MODAL);
         s.showAndWait();
     }
@@ -244,7 +244,7 @@ public class ListaDeAeropuertosController {
         s=new Stage();
         Scene scene;
         try {
-            FXMLLoader controlador = new FXMLLoader(HelloApplication.class.getResource("aniadirEditarAeropuertos.fxml"));
+            FXMLLoader controlador = new FXMLLoader(EjercicioLApp.class.getResource("aniadirEditarAeropuertos.fxml"));
             scene = new Scene(controlador.load());
             s.setTitle("AÑADIR AEROPUERTO");
             s.setScene(scene);
@@ -257,7 +257,7 @@ public class ListaDeAeropuertosController {
             e.printStackTrace();
         }
         s.setResizable(false);
-        s.initOwner(HelloApplication.getStage());
+        s.initOwner(EjercicioLApp.getStage());
         s.initModality(javafx.stage.Modality.WINDOW_MODAL);
         s.showAndWait();
         filtrarPorNombre();
@@ -279,7 +279,7 @@ public class ListaDeAeropuertosController {
         s=new Stage();
         Scene scene;
         try {
-            FXMLLoader controlador = new FXMLLoader(HelloApplication.class.getResource("aniadirAvion.fxml"));
+            FXMLLoader controlador = new FXMLLoader(EjercicioLApp.class.getResource("aniadirAvion.fxml"));
             scene = new Scene(controlador.load());
             s.setTitle("AÑADIR NUEVO AVION");
             s.setScene(scene);
@@ -287,7 +287,7 @@ public class ListaDeAeropuertosController {
             e.printStackTrace();
         }
         s.setResizable(false);
-        s.initOwner(HelloApplication.getStage());
+        s.initOwner(EjercicioLApp.getStage());
         s.initModality(javafx.stage.Modality.WINDOW_MODAL);
         s.showAndWait();
     }
@@ -355,7 +355,7 @@ public class ListaDeAeropuertosController {
             s=new Stage();
             Scene scene;
             try {
-                FXMLLoader controlador = new FXMLLoader(HelloApplication.class.getResource("aniadirEditarAeropuertos.fxml"));
+                FXMLLoader controlador = new FXMLLoader(EjercicioLApp.class.getResource("aniadirEditarAeropuertos.fxml"));
                 scene = new Scene(controlador.load());
                 s.setTitle("EDITAR AEROPUERTO");
                 s.setScene(scene);
@@ -392,7 +392,7 @@ public class ListaDeAeropuertosController {
                 e.printStackTrace();
             }
             s.setResizable(false);
-            s.initOwner(HelloApplication.getStage());
+            s.initOwner(EjercicioLApp.getStage());
             s.initModality(javafx.stage.Modality.WINDOW_MODAL);
             s.showAndWait();
             filtrarPorNombre();
@@ -423,7 +423,7 @@ public class ListaDeAeropuertosController {
         s=new Stage();
         Scene scene;
         try {
-            FXMLLoader controlador = new FXMLLoader(HelloApplication.class.getResource("activarDesactivarAvion.fxml"));
+            FXMLLoader controlador = new FXMLLoader(EjercicioLApp.class.getResource("activarDesactivarAvion.fxml"));
             scene = new Scene(controlador.load());
             s.setTitle("ELIMINAR AVION");
             s.setScene(scene);
@@ -431,7 +431,7 @@ public class ListaDeAeropuertosController {
             e.printStackTrace();
         }
         s.setResizable(false);
-        s.initOwner(HelloApplication.getStage());
+        s.initOwner(EjercicioLApp.getStage());
         s.initModality(javafx.stage.Modality.WINDOW_MODAL);
         s.showAndWait();
     }

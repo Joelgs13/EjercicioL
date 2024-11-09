@@ -1,14 +1,14 @@
-package DAO;
+package com.example.ejerciciol.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import BBDD.ConexionBBDD;
+import com.example.ejerciciol.BBDD.ConexionBBDD;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import Model.AeropuertoPrivadoModel;
+import com.example.ejerciciol.Model.AeropuertoPrivadoModel;
 
 /**
  * Clase de acceso a datos para la entidad Aeropuerto Privado.

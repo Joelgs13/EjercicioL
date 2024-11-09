@@ -5,8 +5,8 @@ module com.example.ejerciciol {
 
 
     opens com.example.ejerciciol to javafx.fxml;
-    opens Model to javafx.base;
+    opens com.example.ejerciciol.Model to javafx.base;
 
     exports com.example.ejerciciol;
-    exports Model;
+    exports com.example.ejerciciol.Model;
 }
